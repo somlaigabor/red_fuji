@@ -1,0 +1,34 @@
+{
+  "name": "red-fuji-binary",
+  "author": "somlai.gabor",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Red Fuji Binary",
+    "uuid": "db6b64ec-7f75-4668-9251-ead90441053b",
+    "sdkVersion": "3",
+    "enableMultiJS": false,
+    "targetPlatforms": ["basalt", "diorite", "emery"],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [],
+    "resources": {
+      "media": [
+        { "type": "bitmap", "name": "IMAGE_RED_FUJI_BG", "file": "images/red_fuji_bg.png" },
+        { "type": "bitmap", "name": "IMAGE_CLOUD_HOUR_3", "file": "images/cloud_hour_3.png" },
+        { "type": "bitmap", "name": "IMAGE_CLOUD_HOUR_2", "file": "images/cloud_hour_2.png" },
+        { "type": "bitmap", "name": "IMAGE_CLOUD_HOUR_1", "file": "images/cloud_hour_1.png" },
+        { "type": "bitmap", "name": "IMAGE_CLOUD_HOUR_0", "file": "images/cloud_hour_0.png" },
+        { "type": "bitmap", "name": "IMAGE_CLOUD_MIN_5", "file": "images/cloud_min_5.png" },
+        { "type": "bitmap", "name": "IMAGE_CLOUD_MIN_4", "file": "images/cloud_min_4.png" },
+        { "type": "bitmap", "name": "IMAGE_CLOUD_MIN_3", "file": "images/cloud_min_3.png" },
+        { "type": "bitmap", "name": "IMAGE_CLOUD_MIN_2", "file": "images/cloud_min_2.png" },
+        { "type": "bitmap", "name": "IMAGE_CLOUD_MIN_1", "file": "images/cloud_min_1.png" },
+        { "type": "bitmap", "name": "IMAGE_CLOUD_MIN_0", "file": "images/cloud_min_0.png" }
+      ]
+    }
+  }
+}

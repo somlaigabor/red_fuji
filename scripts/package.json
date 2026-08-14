@@ -1,0 +1,8 @@
+{
+  "name": "red-fuji-binary-tools",
+  "private": true,
+  "description": "Node helper scripts for regenerating the watchface art assets",
+  "dependencies": {
+    "pngjs": "^7.0.0"
+  }
+}
